@@ -11,7 +11,7 @@ let w = 800; let h = 800;
 let currentX, currentY;
 
 function setup(){
-    var canvas = createCanvas(window.innerWidth*.9, window.innerHeight*.9, WEBGL);
+    var canvas = createCanvas(window.innerWidth, window.innerHeight, WEBGL);
     //var cam = camera(w/2,h/2,100,0,0,0,0,0,-1);
     xInc = 5;
     yInc = 5;
